@@ -1,3 +1,4 @@
+#Body Mass Index
 height = float(input("Enter the height in m : "))
 weight = int(input("Enter the weight in Kg : "))
 a = weight/(height**2)
