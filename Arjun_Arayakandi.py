@@ -4,7 +4,7 @@ import random
 player_action = input("Enter a choice (rock, paper, scissors): ")
 actions = ["rock", "paper", "scissors"]
 computer_action = random.choice(actions)
-print("\nYou chose {}, computer chose {}.\n".format(player_actio,computer_action)
+print("\nYou chose {}, computer chose {}.\n".format(player_actio,computer_action) )
 
 if player_action == computer_action:
     print("Both players selected {}. It's a tie ".format(player_action))
