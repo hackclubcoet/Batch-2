@@ -5,21 +5,21 @@
 
 print("Welcome to Treasure Island", "Come on lets hunt for treasure :)")
 name: str = input("what is your name\n")
-"""this prints your name"""
+# this prints your name
 age: int = int(input("enter your age\n"))
-"""this prints your age"""
+# this prints your age
 if age >= 18:
     print("you are old enough to play !!")
 
     wants_to_play: str = input("are u ready to start\n").lower().strip()
     if wants_to_play == "yes":
         print("let's play !!")
-        """for starting the game choose where to move ,it can be left or right or anything else"""
+        # for starting the game choose where to move ,it can be left or right or anything else
         left_or_right: str = input("first choice can be Left or right?\n")
         if left_or_right == "left":
             ans: str = input("Nice!!,you follow this path and reach the river ,Do u wanna swim across or wait there\n")
             if ans == "wait":
-                """if u are waiting there you will face some doors"""
+                # if u are waiting there you will face some doors
                 print("you are having some coloured doors in front of you,choose")
                 door = input("blue or red or yellow or any other colour\n")
                 if door == "blue":
